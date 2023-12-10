@@ -1,3 +1,5 @@
+import MyComponent from "./MyComponent";
+
 //comentario fora do JSP
 const FirstComponent = () => {
   //comentario pode ser dentro da funcao
@@ -12,6 +14,7 @@ linhas
       {/*Comentario no JSP dentro do return e dentro da tag pai */}
       <h1>My First Component</h1>
       <p>Jsx lesson</p>
+      <MyComponent />
     </dir>
   );
 };
