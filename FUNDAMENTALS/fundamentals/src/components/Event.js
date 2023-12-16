@@ -9,6 +9,12 @@ const Event = () => {
       <div>
         <button onClick={handleMyEventButton}>Click on me!</button>
       </div>
+      <div>
+        {/*Criando uma funcao inline dentro do proprio evento */}
+        <button onClick={() => console.log("Clicou!")}>
+          Clique aqui tambem!
+        </button>
+      </div>
     </div>
   );
 };
