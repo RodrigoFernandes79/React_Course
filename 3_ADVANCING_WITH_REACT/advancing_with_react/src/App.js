@@ -1,6 +1,7 @@
 import "./App.css";
 import City from "./assets/city.jpg";
 import ManageData from "./components/ManageData";
+import RenderList from "./components/RenderList";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       </div>
       <div>
         <ManageData />
+        <RenderList />
       </div>
     </div>
   );
