@@ -1,5 +1,6 @@
 import "./App.css";
 import City from "./assets/city.jpg";
+import ManageData from "./components/ManageData";
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
       <div>
         {/*Publicando imagem da pasta assets, criamos uma pasta chamada assets dentro de src e demos um import City from "x./assets/city.jpg" */}
         <img src={City} alt="Cidade.jpg" />
+      </div>
+      <div>
+        <ManageData />
       </div>
     </div>
   );
